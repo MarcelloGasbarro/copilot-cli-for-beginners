@@ -515,7 +515,7 @@ Copilot CLI supports multiple AI models from OpenAI, Anthropic, Google, and othe
 copilot
 > /model
 
-# Shows available models and lets you pick one. Examples: Claude Sonnet 4.5, Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna.
+# Shows available models and lets you pick one. Examples: GPT-6 Sol, GPT-6 Luna, Claude Sonnet 5.5, Claude Opus 5.5.
 ```
 
 > 💡 **Session vs. persistent model**: The `/model` command changes the model for the **current session only**. When you start a new session, Copilot will use the default again. To set a permanent default model for all future sessions, use `/config model` instead.
